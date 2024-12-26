@@ -10,6 +10,14 @@ public class WordInfo {
         this.count = count;
     }
 
+    public String getWord() {
+        return word;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
     @Override
     public String toString() {
         return "{" + word + ": " + count + "}";
